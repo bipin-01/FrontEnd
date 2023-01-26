@@ -1,0 +1,53 @@
+.first-box{
+    padding-top: 120px;
+    /* margin: 20px; */
+    background: greenyellow;
+    text-align: center;
+    /* height: 100%; */
+    height: 300px;
+    width: 50%;
+    display: inline-block;
+    margin-right: 0px;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.center {
+    text-align: center;
+}
+
+.second-box{
+    padding-top: 120px;
+    margin: 20px;
+    background: greenyellow;
+    text-align: center;
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.container > div{
+    display: inline-block;
+}
+
+.container div:last-child:hover {
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+
+/* .second-box p:hover{
+    background: blue;
+} */
+
+html, body, .container{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* .first-box{
+    display: none;
+    visibility: hidden;
+} */
+
