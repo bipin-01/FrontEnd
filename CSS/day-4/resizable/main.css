@@ -1,3 +1,8 @@
+:root{
+    --primary-color: teal;
+    --btn-color: blueviolet;
+    --text-color: white;
+}
 #overflow{
     height: 500px;
     width: 500px;
@@ -5,4 +10,6 @@
     overflow: auto;
     margin: 20px;
     resize: horizontal;
+    color: var(--text-color);
+    background: var(--btn-color);
 }
