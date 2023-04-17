@@ -1,12 +1,53 @@
-ul{
-    background-color: green;
-    list-style-type: none;
-    border: 1px solid red;
-    overflow: auto;
+body {
+  height: 100vh;
+}
+h1 {
+  float: left;
+}
+li {
+  float: right;
+  padding: 10px;
+  list-style: none;
 }
 
-li{
-    background-color: green;
-    padding: 10px;
-    float: left;
+.container {
+  height: 100%; /* set the height of the main container */
+  border: 1px solid black; /* just for demo purposes */
+  position: relative; /* set the position property to relative */
+}
+
+.header {
+  width: 93%;
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px 10px;
+  height: 10vh;
+}
+
+.sidebar {
+  width: 10%;
+  height: 70vh; /* set the height of the sidebar */
+  background-color: #30ac8d;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px;
+}
+
+.main-content {
+  height: 70vh; /* fill the remaining height of the container */
+  padding: 10px;
+  border: 1px solid black;
+  width: 80%;
+  float: left;
+  background-color: blanchedalmond;
+  margin: 10px 10px;
+  overflow: auto;
+}
+
+.footer {
+  height: 5vh;
+  width: 93%;
+  background-color: darkturquoise;
+  padding: 10px;
+  float: left;
 }
