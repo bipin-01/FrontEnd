@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  width: 100%;
+  /* flex-direction: column; */
+  display: flex;
+  /* justify-content: center; */
+  /* align is alawys for cross axis*/
+  /* align-items: start; */
+  /* always for main axis */
+  /* justify-content: end;
+  background-color: #f4f4f4; */
+  flex-wrap: wrap;
+}
+
+.item {
+  /* flex-basis: 300px; */
+  display: flex;
+  justify-content: center;
+  /* width: 100px; */
+  height: 100px;
+  background-color: #254de4;
+  color: #fff;
+  margin: 10px;
+  /* flex-grow: 1; */
+}
+
+/* .item:nth-of-type(2) {
+  align-self: end;
+}
+
+.item:nth-of-type(1) {
+  align-self: flex-start;
+}
+
+.item:nth-of-type(3) {
+  align-self: end;
+} */
