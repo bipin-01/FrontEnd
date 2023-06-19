@@ -1,0 +1,31 @@
+.parent {
+  border: 4px solid red;
+  height: 400px;
+  /* display: flex; */
+  justify-content: center;
+}
+
+/* .child {
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 4px solid green;
+  margin: auto;
+} */
+
+.child {
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 4px solid green;
+  /* align-self: flex-start; */
+  float: right;
+}
+
+.random {
+  float: right;
+}
